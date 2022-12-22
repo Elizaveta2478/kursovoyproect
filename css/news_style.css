@@ -1,0 +1,128 @@
+.main__news-summer-name, .main__news-autumn-name,
+.main__news-winter-name, .main__news-year-name, .main__news-text,
+.main__name, .main__news-summer-text, .main__news-autumn-text, .main__news-winter-text,
+.main__news-year-text {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #FCE2D1;
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 49.3473vw;
+    background-color: #314955;
+    border-radius: 2px;
+}
+.main__news {
+    border-radius: 2px;
+    border: 4px solid #CA3A39;
+}
+.main__news {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 23.4987vw;
+    height: 422px;
+    background: rgba(49, 73, 85, 0.5) url("img/fon1.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.main__news-summer-name, .main__news-autumn-name, .main__news-winter-name, .main__news-year-name {
+    align-self: center;
+    width: 23.4987vw;
+    margin: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__news-summer-text, .main__news-autumn-text, .main__news-winter-text, .main__news-year-text {
+    width: 23.4987vw;
+    text-align: justify;
+    margin: 0px;
+}
+.main__name {
+    display: flex;
+    width: 51.8277vw;
+    height: 33px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+}
+.main__news-summer-text {
+    display: none;
+    width: 16.3185vw;
+    color: #FCE2D1;
+    background: rgba(202, 58, 57, 0.5);
+    border-radius: 2px;
+}
+.main__button-content {
+    background-color: #314955;
+    border: none;
+    border-radius: 2px;
+    border: 4px solid #CA3A39;
+    width: 236px;
+    height: 50px;
+    color: #FCE2D1;
+    margin: 0px 120px 20px;
+}
+.main__news-autumn-text {
+    display: none;
+    width: 16.3185vw;
+    color: #FCE2D1;
+    background: rgba(202, 58, 57, 0.5);
+    border-radius: 2px;
+}
+.main__news-year-text {
+    display: none;
+    width: 16.3185vw;
+    color: #FCE2D1;
+    background: rgba(202, 58, 57, 0.5);
+    border-radius: 2px;
+}
+.main__news-winter-text {
+    display: none;
+    width: 16.3185vw;
+    color: #FCE2D1;
+    background: rgba(202, 58, 57, 0.5);
+    border-radius: 2px;
+}
+@media screen and (max-width: 724px) {
+    .main {
+        width: 100%;
+    }
+    .main__button-content {
+        margin: 0px auto 20px;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .main__news, .main__news-summer-text, .main__news-autumn-text, .main__news-winter-text, .main__news-year-text {
+        width: 98.5%;
+    }
+}
+@media screen and (max-width: 280px) {
+    .main__button {
+        width: 100%;
+    }
+}
