@@ -1,0 +1,66 @@
+.main__cat-breeds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 50px;
+    width: 48.8251vw;
+    background: rgba(49, 73, 85, 0.5) url("img/fon2.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 2px;
+    border: 4px solid #CA3A39;
+}
+.main__name {
+    display: flex;
+    width: 51.8277vw;
+    height: 41px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    color: #FCE2D1;
+}
+.main__cat-breed {
+    width: 110px;
+    height: 159px;
+    color: #FCE2D1;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+}
+.main__cat-photo {
+    border-radius: 90px;
+    width: 109px;
+    height: 109px;
+    background: rgba(49, 73, 85, 0.5);
+    background-blend-mode: darken;
+}
+.main__cat-name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+}
+@media screen and (max-width: 724px) {
+    .main__cat-breeds {
+        width: 98.5%;
+    }
+    .main__name {
+        width: 100%;
+    }
+
+}
