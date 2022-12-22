@@ -1,0 +1,120 @@
+.main__news-name, .main__news-second-name, .main__news-text, .main__name {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #FCE2D1;
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 2px;
+}
+.main__news, .main__cat-breeds {
+    border-radius: 2px;
+    border: 4px solid #CA3A39;
+}
+.main__news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    width: 48.8251vw;
+    height: 430px;
+    background: rgba(49, 73, 85, 0.5) url("img/fon1.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.main__news-name {
+    display: flex;
+    width: 32.2454vw;
+    height: 41px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+}
+.main__news-second-name {
+    width: 32.2454vw;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+}
+.main__news-text {
+    width: 32.2454vw;
+    text-align: justify;
+    margin: 0px;
+}
+.main__cat-breeds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 50px;
+    width: 48.8251vw;
+    background: rgba(49, 73, 85, 0.5) url("img/fon2.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 2px;
+}
+.main__name {
+    display: flex;
+    width: 51.8277vw;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+}
+.main__cat-breed {
+    width: 110px;
+    height: 159px;
+    color: #FCE2D1;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+}
+.main__cat-photo {
+    border-radius: 90px;
+    width: 109px;
+    height: 109px;
+    background: rgba(49, 73, 85, 0.5);
+    background-blend-mode: darken;
+}
+@media screen and (max-width: 724px) {
+    .main__news-text {
+        display: none;
+    }
+    .main__news, .main__cat-breeds {
+        width: 98.5%;
+    }
+    .main__name {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .main__news, .main__cat-breeds {
+        width: 97.5%;
+    }
+}
